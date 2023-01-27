@@ -1,0 +1,262 @@
+/*
+* Template Name: Webiz
+* Template URI: https://www.salvatoremandis.it
+* Description: Webiz Digital Agency - Responsive Bootstrap Template
+* Author: Salvatore Mandis
+* Author URI: https://www.salvatoremandis.it
+*/
+*{margin: 0;padding: 0;}
+body{font-family: sans-serif;background-color: #888;-webkit-font-smoothing: antialiased;}
+#nav-bar{position: sticky;top: 0;z-index: 10;}
+.navbar{background: #696aa7; padding: 0 !important;}
+/* Logo resize */
+.navbar-brand{font-size: 60px}
+.navbar-brand img{height: 4rem;padding-left: 3rem; padding: 5px; padding-left: 20px; padding-right: 3rem; padding-right: 10px;}
+.navbar-nav{margin-right: 3rem;}
+.navbar-nav li{padding: 0 1rem;}
+.navbar-nav li{padding: 0 1rem;}
+.navbar-nav .nav-item .nav-link{color: #fff !important; font-weight: 600; float: right; text-align: left;}
+.navbar-nav .nav-item .nav-link:hover{color: rgb(210, 196, 237) !important;}
+.fa-bars{color: #fff !important; font-size: 25px !important;}
+.navbar-toggler{outline: none !important;}
+/* --------- Banner ---------- */
+.banner{background:  url(bg.jpg) #696aa7;background-size: cover; background-position: right; background-repeat: no-repeat; color: #fff; padding-top: 5%;}
+.promo-title{font-size: 3rem; font-weight: 600;}
+.join-title{font-size: 1.44rem; color: #fff}
+.link-play{text-decoration: none;}
+.link-play:hover{color: #58f0ff;text-decoration: none!important;}
+.play-btn{width: 250px;margin: 20px 0;margin-right: 2em;text-decoration: none !important;transition: transform 0.5s;}
+.play-btn:hover{color: #444;text-decoration: none!important;transform: scale(1.2);}
+.banner a{color: #fff; text-decoration: none!important;}
+.img-fluid{margin-top: 4rem;}
+.bottom-img{width: 100%;}
+/* ---------- Services --------- */
+#services{padding: 50px 0;}
+.service-img{width: 130px; margin-top: 2rem;}
+.services{padding: 60px; font-size: x-large; transition: 0.5s}
+/*.services:hover{transform: scale(1.2); };*/
+.scale{color: #212529; text-decoration: none !important; }
+.scale img{transition: 0.5s;}
+.scale:hover{color: #212529; text-decoration: none!important; }
+.scale:hover img{transform: scale(1.2);}
+
+.services h4{padding: 1em; margin-top: 5px; text-transform: uppercase;}
+.title::after{
+  content: '';
+  background: #696aa7;
+  height: 8px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 70px;
+  transform: translateY(23px);}
+#services .btn-primary{
+  font-size: x-large;
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none; border-radius: 20px;
+  background: #696aa7;
+  transition: transform 0.5s;
+}
+#services .btn-primary:hover{transform: scale(1.2);}
+/* -----------   About -------------*/
+#about{ font-size: larger; padding-bottom: 3rem; padding-top: 3rem;}
+.about-title{font-size: 1.6em; margin-top: 8%; font-weight: 600;}
+#about ul li{margin: 10px 0;}
+#about ul{margin-left: 20px;}
+#about .btn-primary{
+  font-size: large;
+  box-shadow: none;
+  padding: 8px 25px;
+  margin-top: 40px;
+  border: none; border-radius: 20px;
+  background: #696aa7;
+  transition: transform 0.5s;
+}
+#about .btn-primary:hover{
+  transform: scale(1.2);
+}
+/* -----------   Format -------------*/
+#format{background-color: #b1b2d2; color:#fff; font-size: larger; padding-bottom: 3rem; padding-top: 3rem;}
+
+#format ul li{margin: 20px 40px;}
+#format ul{margin-left: 20px;}
+#format .btn-primary{
+  font-size: large;
+  box-shadow: none;
+  padding: 8px 25px;
+  margin-top: 40px;
+  border: none; border-radius: 20px;
+  background: #696aa7;
+  transition: transform 0.5s;
+}
+.prep{ min-height: 400px;}
+.prep img{width: 50px; transform: translate(0px, -20px);}
+.predm{
+  padding-left: 15px;
+  text-align: left;
+  background-color: #6667ab; 
+  border: 4px solid; border-radius: 50px;
+  height: 75px;
+ color: #fff;
+}
+.form{
+  text-align: left;
+  /*background:  url(bg2.png); */
+   background-color: #a9dbda; 
+   border: 4px solid; border-radius: 50px;
+   /*background-size: cover;*/
+   min-height: 300px;
+  color: #fff;
+
+}
+#format .btn-primary:hover{
+  transform: scale(1.2);
+}
+
+/*--------Usp----------*/
+#usp{
+  background-color: #fff;
+   color:#212529; 
+   font-size: larger; 
+   padding-bottom: 3rem; 
+   padding-top: 3rem;
+   min-height: 650px;
+  }
+#usp img{width: 275px;}
+#usp p{margin: 60px 0;}
+/*--------Ekz----------*/
+#ekz{background-color: #b1b2d2;
+   color:#fff; 
+   font-size: larger;
+    padding-bottom: 3rem; 
+    padding-top: 3rem;
+    min-height: 650px;
+  }
+#ekz img{width: 275px;}
+#ekz p{margin: 60px 0;}
+/*--------Olimp----------*/
+#olimp{background-color: #fff; 
+  color:#212529;
+   font-size: larger; 
+   padding-bottom: 3rem;
+    padding-top: 3rem;
+    min-height: 650px;
+  }
+#olimp img{width: 275px;}
+#olimp p{margin: 60px 0;}
+/* ------- Testimonials Section -----*/
+#testimonials{margin: 100px 0;}
+.testimonials{border-left: 3px solid #1723b1; margin: 50px 0;}
+.testimonials img{height: 60px;width: 60px;border-radius: 50%; margin: 0 10px;}
+.user-details{display: inline-block;font-size: 12px;}
+.feedback{font-style: italic;}
+#testimonials .btn-primary{
+  font-size: x-large;
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none; border-radius: 20px;
+  background: #696aa7;
+  transition: transform 0.5s;
+}
+#testimonials .btn-primary:hover{
+  transform: scale(1.2);
+}
+/* ----- Footer ------*/
+#footer{background: #696aa7; color: #fff;}
+.footer-img{width: 100%;}
+
+.footer-box{padding: 20px;}
+.footer-box img{width: 4rem; margin-bottom: 20px;}
+.footer-box .fa{
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.footer-box .form-control{box-shadow: none !important; border: none; border-radius: 0; margin: 20px 0;}
+.footer-box .btn-primary{
+  box-shadow: none !important;
+  width: 8rem;
+  border: none; border-radius: 50px;
+  background: #696aa7;
+  color: #fff;transition: transform 0.5s;
+}
+.footer-box .btn-primary:hover{transform: scale(1.2); color: #fff;}
+/*-------- Social Media icons ---------- */
+#social p{font-weight: 600; font-size: 16px; margin-top: 20px;}
+#social .social-icons .svg-icons img{width: 50px;transition: transform .7s;margin-right: 1.2rem;}
+#social .social-icons .svg-icons img:hover{transform: scale(1.2);}
+.copyright{padding-top: 2%; font-size: 15px;}
+.copyright a{text-decoration: none;color: #fff;}
+.copyright a:hover{text-decoration: none;color: rgb(210, 196, 237);}
+
+.open-button {
+  font-size: large;
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none; border-radius: 20px;
+  background: #696aa7;
+  transition: transform 0.5s;
+  color: #fff;
+}
+.open-button:hover{
+  transform: scale(1.2);
+}
+.form-popup {
+  margin: 20px 0;
+  padding: 20px;
+  display: none;
+ max-width: 350px;
+  bottom: 0;
+  right: 25px;
+  border: 4px solid #b1b2d2;
+  border-radius: 10px;
+  z-index: 9;
+  
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+  
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  font-size: large;
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none; border-radius: 20px;
+  background: #696aa7;
+  transition: transform 0.5s;
+  color: #fff;
+}
+
+.form-container .cancel {
+  background-color: #696aa7;;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  color:rgb(210, 196, 237);
+  transform: scale(1.2);
+}
